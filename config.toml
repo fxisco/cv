@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://fxisco.github.io"
 title = "Francisco Payés"
 theme = "hugo-coder"
 languagecode = "en"
@@ -11,7 +11,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "fpayes"
 
 [params]
     author = "Francisco Payés"
