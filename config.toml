@@ -45,3 +45,8 @@ disqusShortname = "fpayes"
     weight = 3
     url = "https://twitter.com/fpayes11/"
 
+# Menu links
+[[menu.main]]
+    name = "Portofolio"
+    weight = 1
+    url = "/portofolio/"
