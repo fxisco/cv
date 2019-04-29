@@ -227,14 +227,28 @@ img {
       width: 10rem; } }
 
 .list ul {
-  margin: 3.2rem 0 3.2rem 0;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  margin: 3.2rem 0 3.2rem 0;
   padding: 0; }
   .list ul li {
-    font-size: 1.8rem; }
+    border: 1px solid #212121;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 1.8rem;
+    text-align: center;
+    width: calc(25% - 15px); }
+    .list ul li:hover {
+      background-color: #add8e6; }
     @media only screen and (max-width: 768px) {
       .list ul li {
-        margin: 1.6rem 0 1.6rem 0; } }
+        width: calc(50% - 15px); } }
+    @media only screen and (max-width: 435px) {
+      .list ul li {
+        width: 100%;
+        margin-right: 0; } }
     .list ul li .date {
       display: inline-block;
       width: 20.0rem;
@@ -245,12 +259,15 @@ img {
           display: block;
           text-align: left; } }
     .list ul li .title {
-      font-size: 1.8rem;
       color: #212121;
+      display: block;
       font-family: Lato, Helvetica, sans-serif;
-      font-weight: 700; }
-      .list ul li .title:hover, .list ul li .title:focus {
-        color: #1565c0; }
+      font-size: 1.8rem;
+      font-weight: 700;
+      height: 100%;
+      padding: 20px 10px;
+      text-decoration: none;
+      width: 100%; }
 
 .centered {
   display: flex;

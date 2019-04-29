@@ -1,6 +1,5 @@
 +++
-title = "Portofolio"
-slug = "portofolio"
+title = "Text Translator"
 +++
 
 ## Text translator
