@@ -2,8 +2,6 @@
 title = "Text Converter"
 +++
 
-## Text converter
-
 [Live demo](http://fxisco.surge.sh/) | [Github Repository](https://github.com/fxisco/text-converter)
 
 Web tool to convert text into three possible formats: HEX, OCT and ASCII.
